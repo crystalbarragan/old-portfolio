@@ -1,0 +1,334 @@
+/*----------------------------------------------
+
+Coded from scratch by: Crystal Barragán (newbie HTML/CSS coder)
+
+This website design is featured on (jessicacomingmore.com) and  (https://designschool.canva.com/blog/portfolio/).
+
+------------------------------------------------*/
+
+/*-------------- General Styles --------------*/
+
+body {
+	color: #333333;
+	opacity: 1;
+    transition: 1s opacity;
+}
+
+body.fade-out {
+    opacity: 0;
+    transition: none;
+}
+
+a:link,
+a:visited {
+	color: #333333;
+	text-decoration: none;
+	
+}
+
+a:hover,
+a.active {
+	color: #91725E;
+	text-decoration: none;
+	transition: 0.5s;
+}
+
+.btn-custom {
+	width: 100%;
+	margin-top: 20px;
+	font-family: "ingra", Helvetica, sans-serif;
+	font-size: 0.80em;
+	font-weight: 400;
+	color: #333333;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 0.15em;
+	background-color: #DAE3E0;
+}
+
+.btn:hover {
+	color: whitesmoke;
+	background-color: #ADAFAD;
+	transition: 0.5s;
+}
+
+/*------------------ Resets ------------------*/
+
+.container {
+	width: calc(100% - 50px);
+    max-width: 1130px;
+    padding: 0 25px;
+    margin: 0 auto;
+	display: block;
+    position: relative;
+}
+
+.no-padding {
+	margin-left: 0;
+  	margin-right: 0;
+}
+
+.no-padding [class*="col-"] {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.gutter-15 {
+	margin-left: -15px;
+	margin-right: -15px;
+}
+
+.gutter-15 [class*="col-"] {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+
+.gutter-30 {
+	margin-left: -30px;
+	margin-right: -30px;
+}
+
+.gutter-30 [class*="col-"] {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+}
+
+/*---------------- Typography ----------------*/
+
+
+.main {
+	font-family: "futura-pt";
+	font-weight: 500;
+	letter-spacing: 0.03em;
+}
+
+.nav-links {
+	text-transform: none;
+	text-align: right;
+	word-spacing: 10px;
+}
+
+.site-desc {
+	font-family: "baskerville-urw";
+	font-size: 4vw;
+	font-weight: 100;
+	width: 80%;
+	margin-top: 15%;
+}
+
+.sub-main {
+	font-family: "ingra", Helvetica, sans-serif;
+	font-size: 0.80em;
+	font-weight: 400;
+	text-decoration: underline;
+	text-transform: uppercase;
+	letter-spacing: 0.15em;
+}
+
+.learn-more {
+	color: #333333;
+	margin-top: 20px;
+	margin-bottom: 50px;
+	cursor: pointer;
+}
+
+p,
+.normal {
+	font-family: "baskerville-urw", Georgia, Times, serif;
+	font-weight: 100;
+	font-size: 1em;
+	line-height: 1.7em;
+}
+
+.justify {
+	text-align: justify;
+}
+
+.bold {
+	font-family: "baskerville-urw", Georgia, Times, serif;
+	font-weight: 500;
+	font-size: 1em;
+	line-height: 1.7em;
+}
+
+.contact-me {
+	font-family: "baskerville-urw", Georgia, Times, serif;
+	font-weight: 100;
+	font-size: 3.5vw;
+}
+
+.social-links li {
+	font-family: "futura-pt";
+	font-weight: 500;
+	letter-spacing: 0.03em;
+}
+
+.social-links li span {
+	font-family: "ingra";
+	font-size: 0.80em;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 0.15em;
+}
+
+#back-to-top {
+	font-family: "ingra", sans-serif;
+	font-size: 0.80em;
+	font-weight: 400;
+	text-decoration: underline;
+	text-transform: uppercase;
+	letter-spacing: 0.15em;
+	cursor: pointer;
+}
+
+/*------------------- Home -------------------*/
+
+#home {
+	height: 100vh;
+	min-height: 500px;
+	display: block;
+	overflow: hidden;
+}
+
+nav {
+	margin-top: 30px;
+	font-size: 1em;
+}
+
+.nav-links li {
+	display: inline-block;
+}
+
+.parallax-bg {
+    background: no-repeat center center fixed;
+	background-color: rgba(255,255,255,0.4);
+	-webkit-background-size: cover;
+	   -moz-background-size: cover;
+	    -ms-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+}
+
+.diagonal::before {
+	content: '';
+	position: absolute;
+	display: block;
+	margin-top: -200px;
+	border-style: solid;
+	border-width: 15rem 0 0 100vw;
+	border-color: transparent white;
+}
+
+/*------------------ Resume -------------------*/
+
+#resume {
+	background: #FFFFFF;
+	padding: 50px 0 70px;
+	height: auto;
+}
+
+.about-image {
+	max-width: 600px;
+}
+
+.about-me {
+	max-width: 600px;
+}
+
+/*----------------- Portfolio -----------------*/
+
+#portfolio {
+	background: #F7F4F0;
+	padding: 50px 0;
+	
+}
+
+.portfolio-sorting {
+	display: inline-block;
+	font-family: "futura-pt", sans-serif;
+	font-size: 1em;
+	font-weight: 500;
+	text-decoration: none;
+	letter-spacing: 0.03em;
+	margin: 20px;
+	cursor: pointer;
+	margin-bottom: 30px;
+}
+
+.portfolio-sorting li a {
+	color: #000000;
+	text-decoration: none;
+	padding: 6px;
+}
+
+.portfolio-sorting li a:hover,
+.portfolio-sorting li a.active {
+	color: #91725E;
+}
+
+#grid {
+	margin-bottom: -30px;
+}
+
+.portfolio-item {
+	margin-bottom: 60px;
+}
+
+/*------------------- Tools -------------------*/
+
+#tools {
+	background: #ffffff;
+	padding: 70px 0;
+}
+
+/*------------------ Contact ------------------*/
+
+#contact {
+	background: #e4e4e4;
+	font-family: "baskerville-utw";
+	padding: 50px 0;
+}
+
+.social-links {
+	margin-top: 20px;
+}
+
+/*------------------ Footer ------------------*/
+
+#footer {
+	background: #d5c9c8;
+    text-align: center;
+    padding: 50px 0;
+}
+
+/*--------------- Media Queries ---------------*/
+
+@media only screen and (max-width: 767px) {
+	.nav-title,
+	.nav-links,
+	.portfolio-sorting,
+	.tools h5,
+	.tools ul,
+	.author-info,
+	.copyright,
+	#back-to-top {
+		text-align: center !important;
+	}
+}
+
+@media only screen and (max-width: 997px) {
+	#back-to-top {
+	}
+}
+
+@media only screen and (max-width: 991px) {
+	.about-image,
+	.about-me {
+		float: none;
+		margin-right: auto;
+		margin-left: auto;
+	}
+}
+
+
+
