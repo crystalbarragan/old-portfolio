@@ -10,13 +10,6 @@ This website design is featured on (jessicacomingmore.com) and  (https://designs
 
 body {
 	color: #333333;
-	opacity: 1;
-    transition: 1s opacity;
-}
-
-body.fade-out {
-    opacity: 0;
-    transition: none;
 }
 
 a:link,

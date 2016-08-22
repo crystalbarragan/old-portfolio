@@ -1,12 +1,4 @@
-$(document).ready(function(){ 
-
-	
-// Fade In
-	
-	$(function() {
-    $('body').removeClass('fade-out');
-});
-	
+$(document).ready(function(){ 	
 	
 // Scroll Down
     $('.learn-more').click(function() {
