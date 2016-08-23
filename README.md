@@ -1,4 +1,8 @@
-# crystalbarragan.github.io
+# [crystalbarragan.github.io](http://crystalbarragan.github.io)
 **A Personal Portfolio Website (WIP)**
 
-Howdy! You are viewing the works of a beginner HTML/CSS coder. 
+Portfolio website made with [Bootstrap](http://getbootstrap.com).
+
+## JS Plug-ins Used
++ [Shuffle.js](https://github.com/Vestride/Shuffle)
++ [Parallax.js](https://github.com/pixelcog/parallax.js/)
