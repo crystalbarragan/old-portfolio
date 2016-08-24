@@ -45,13 +45,5 @@ $(document).ready(function(){
 
 			$portfolioContainer.shuffle('shuffle', groupName);
 		});
-	
-
-// Initiate WOW Plugin
-    wow = new WOW ({
-        mobile: false
-    });
-    
-    wow.init();
     
 })(jQuery);
