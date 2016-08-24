@@ -10,13 +10,10 @@ This website design is featured on (jessicacomingmore.com) and  (https://designs
 
 body {
 	color: #333333;
-	opacity: 1;
-    transition: 1s opacity;
-}
-
-body.fade-out {
-    opacity: 0;
-    transition: none;
+	-webkit-font-smoothing: antialiased;
+	   -moz-font-smoothing: antialiased;
+	    -ms-font-smoothing: antialiased;
+	    -oz-font-smoothing: antialiased;
 }
 
 a:link,
@@ -102,7 +99,7 @@ a.active {
 
 .sub-main {
 	font-family: "ingra", Helvetica, sans-serif;
-	font-size: 0.80em;
+	font-size: 0.90em;
 	font-weight: 400;
 	text-transform: uppercase;
 	letter-spacing: 0.15em;
@@ -118,7 +115,7 @@ a.active {
 
 .sub-main-no-padding {
 	font-family: "ingra", Helvetica, sans-serif;
-	font-size: 0.80em;
+	font-size: 0.90em;
 	font-weight: 400;
 	text-decoration: underline;
 	text-transform: uppercase;
@@ -128,8 +125,8 @@ a.active {
 p,
 .normal {
 	font-family: "baskerville-urw", Georgia, Times, serif;
-	font-weight: 100;
-	font-size: 1em;
+	font-weight: 400;
+	font-size: 1.1em;
 	line-height: 1.7em;
 }
 
@@ -139,7 +136,7 @@ p,
 
 #back-to-projects {
 	font-family: "ingra", sans-serif;
-	font-size: 0.80em;
+	font-size: 0.90em;
 	font-weight: 400;
 	text-decoration: underline;
 	text-transform: uppercase;
@@ -147,16 +144,9 @@ p,
 	cursor: pointer;
 }
 
-.author-info {
-	font-family: "baskerville-urw", Georgia, Times, serif;
-	font-size: 1em;
-	letter-spacing: 0.03em;
-	line-height: 1.7em;
-}
-
 #back-to-top {
 	font-family: "ingra", sans-serif;
-	font-size: 0.80em;
+	font-size: 0.90em;
 	font-weight: 400;
 	text-decoration: underline;
 	text-transform: uppercase;
