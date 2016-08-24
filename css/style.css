@@ -34,7 +34,7 @@ a.active {
 	width: 100%;
 	margin-top: 20px;
 	font-family: "ingra", Helvetica, sans-serif;
-	font-size: 0.80em;
+	font-size: 0.90em;
 	font-weight: 400;
 	color: #333333;
 	text-decoration: none;
@@ -95,6 +95,7 @@ a.active {
 
 .main {
 	font-family: "futura-pt";
+	font-size: 1em;
 	font-weight: 500;
 	letter-spacing: 0.03em;
 }
@@ -108,14 +109,14 @@ a.active {
 .site-desc {
 	font-family: "baskerville-urw";
 	font-size: 4vw;
-	font-weight: 100;
+	font-weight: 400;
 	width: 80%;
 	margin-top: 15%;
 }
 
 .sub-main {
 	font-family: "ingra", Helvetica, sans-serif;
-	font-size: 0.80em;
+	font-size: 0.90em;
 	font-weight: 400;
 	text-decoration: underline;
 	text-transform: uppercase;
@@ -132,8 +133,8 @@ a.active {
 p,
 .normal {
 	font-family: "baskerville-urw", Georgia, Times, serif;
-	font-weight: 100;
-	font-size: 1em;
+	font-weight: 400;
+	font-size: 1.1em;
 	line-height: 1.7em;
 }
 
@@ -144,13 +145,13 @@ p,
 .bold {
 	font-family: "baskerville-urw", Georgia, Times, serif;
 	font-weight: 500;
-	font-size: 1em;
+	font-size: 1.1em;
 	line-height: 1.7em;
 }
 
 .contact-me {
 	font-family: "baskerville-urw", Georgia, Times, serif;
-	font-weight: 100;
+	font-weight: 400;
 	font-size: 3.5vw;
 }
 
@@ -162,7 +163,7 @@ p,
 
 .social-links li span {
 	font-family: "ingra";
-	font-size: 0.80em;
+	font-size: 0.90em;
 	font-weight: 400;
 	text-transform: uppercase;
 	letter-spacing: 0.15em;
@@ -170,7 +171,7 @@ p,
 
 #back-to-top {
 	font-family: "ingra", sans-serif;
-	font-size: 0.80em;
+	font-size: 0.90em;
 	font-weight: 400;
 	text-decoration: underline;
 	text-transform: uppercase;

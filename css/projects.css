@@ -16,7 +16,6 @@ body {
 	    -oz-font-smoothing: antialiased;
 }
 
-
 a:link,
 a:visited {
 	color: #333333;
@@ -126,8 +125,8 @@ a.active {
 p,
 .normal {
 	font-family: "baskerville-urw", Georgia, Times, serif;
-	font-weight: 100;
-	font-size: 1em;
+	font-weight: 400;
+	font-size: 1.5em;
 	line-height: 1.7em;
 }
 
@@ -143,13 +142,6 @@ p,
 	text-transform: uppercase;
 	letter-spacing: 0.15em;
 	cursor: pointer;
-}
-
-.author-info {
-	font-family: "baskerville-urw", Georgia, Times, serif;
-	font-size: 1em;
-	letter-spacing: 0.03em;
-	line-height: 1.7em;
 }
 
 #back-to-top {
