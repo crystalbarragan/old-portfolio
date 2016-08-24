@@ -1,8 +1,9 @@
 # [crystalbarragan.github.io](http://crystalbarragan.github.io)
-**A Personal Portfolio Website (WIP)**
+**A Personal Portfolio Website Made With [Bootstrap](http://getbootstrap.com) (WIP).**
 
-Portfolio website made with [Bootstrap](http://getbootstrap.com).
-
-## JS Plug-ins Used
+## JS plug-ins used
 + [Shuffle.js](https://github.com/Vestride/Shuffle)
 + [Parallax.js](https://github.com/pixelcog/parallax.js/)
+
+## Design
+This website design is featured on https://designschool.canva.com/blog/portfolio/.
