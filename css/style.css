@@ -123,6 +123,16 @@ a.active {
 	letter-spacing: 0.15em;
 }
 
+.sub-main-padding {
+	font-family: "ingra", Helvetica, sans-serif;
+	font-size: 0.90em;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 0.15em;
+	padding: 20px 0 0;
+	margin: 0;
+}
+
 .learn-more {
 	color: #333333;
 	margin-top: 20px;
@@ -167,6 +177,16 @@ p,
 	font-weight: 400;
 	text-transform: uppercase;
 	letter-spacing: 0.15em;
+}
+
+#back-to-projects {
+	font-family: "ingra", sans-serif;
+	font-size: 0.90em;
+	font-weight: 400;
+	text-decoration: underline;
+	text-transform: uppercase;
+	letter-spacing: 0.15em;
+	cursor: pointer;
 }
 
 #back-to-top {
@@ -275,6 +295,17 @@ nav {
 	margin-bottom: 60px;
 }
 
+/*------------------ Projects -------------------*/
+
+#project {
+	background: #ffffff;
+	margin: 50px 0 80px;
+}
+
+.pdfobject-container {
+	height: 600px;
+}
+
 /*------------------- Tools -------------------*/
 
 #tools {
@@ -315,10 +346,9 @@ nav {
 	#back-to-top {
 		text-align: center !important;
 	}
-}
-
-@media only screen and (max-width: 997px) {
-	#back-to-top {
+	
+	.project-info {
+		margin-bottom: 50px;
 	}
 }
 
