@@ -9,15 +9,17 @@ This website design is featured on (jessicacomingmore.com) and  (https://designs
 /*-------------- General Styles --------------*/
 
 body {
+	background: #ffffff;
+	overflow-x: hidden;
 	font-family: Baskerville, "baskerville-urw", Times, serif;
-	color: #111111;
-	-webkit-font-smoothing: antialiased;
+	color: #333;
+	-webkit-font-smoothing: subpixel-antialiased;
 	text-rendering: optimizeLegibility;
 }
 
 a:link,
 a:visited {
-	color: #333333;
+	color: #333;
 	text-decoration: none;
 	
 }
@@ -35,7 +37,7 @@ a.active {
 	font-family: "ingra", Helvetica, sans-serif;
 	font-size: 0.90em;
 	font-weight: 400;
-	color: #333333;
+	color: #333;
 	text-decoration: none;
 	text-transform: uppercase;
 	letter-spacing: 0.15em;
@@ -133,7 +135,7 @@ a.active {
 }
 
 .learn-more {
-	color: #333333;
+	color: #333;
 	margin-top: 20px;
 	margin-bottom: 50px;
 	cursor: pointer;
@@ -141,10 +143,8 @@ a.active {
 
 p,
 .normal {
-	font-family: Baskerville, "baskerville-urw", Times, serif;
-	font-weight: normal;
-	font-size: 1em;
-	line-height: 1.7em;
+	font: normal 400 14px/20px Baskerville, "baskerville-urw", Times, serif;
+	letter-spacing: 0.025em;
 }
 
 .justify {
@@ -247,10 +247,7 @@ nav {
 	height: auto;
 }
 
-.about-image {
-	max-width: 600px;
-}
-
+.about-image,
 .about-me {
 	max-width: 600px;
 }
@@ -276,7 +273,7 @@ nav {
 }
 
 .portfolio-sorting li a {
-	color: #000000;
+	color: #333;
 	text-decoration: none;
 	padding: 6px;
 }
@@ -357,6 +354,10 @@ nav {
 		float: none;
 		margin-right: auto;
 		margin-left: auto;
+	}
+	
+	.about-image {
+		padding-bottom: 10px;
 	}
 }
 
