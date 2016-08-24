@@ -10,6 +10,10 @@ This website design is featured on (jessicacomingmore.com) and  (https://designs
 
 body {
 	color: #333333;
+	-webkit-font-smoothing: antialiased;
+	   -moz-font-smoothing: antialiased;
+	    -ms-font-smoothing: antialiased;
+	    -oz-font-smoothing: antialiased;
 }
 
 a:link,
