@@ -9,11 +9,10 @@ This website design is featured on (jessicacomingmore.com) and  (https://designs
 /*-------------- General Styles --------------*/
 
 body {
-	color: #333333;
+	font-family: Baskerville, "baskerville-urw", Times, serif;
+	color: #111111;
 	-webkit-font-smoothing: antialiased;
-	   -moz-font-smoothing: antialiased;
-	    -ms-font-smoothing: antialiased;
-	    -oz-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
 }
 
 a:link,
@@ -107,9 +106,9 @@ a.active {
 }
 
 .site-desc {
-	font-family: "baskerville-urw";
+	font-family: Baskerville, "baskerville-urw", Times, serif;
 	font-size: 4vw;
-	font-weight: 400;
+	font-weight: normal;
 	width: 80%;
 	margin-top: 15%;
 }
@@ -142,9 +141,9 @@ a.active {
 
 p,
 .normal {
-	font-family: "baskerville-urw", Georgia, Times, serif;
-	font-weight: 400;
-	font-size: 1.1em;
+	font-family: Baskerville, "baskerville-urw", Times, serif;
+	font-weight: normal;
+	font-size: 1em;
 	line-height: 1.7em;
 }
 
@@ -153,15 +152,15 @@ p,
 }
 
 .bold {
-	font-family: "baskerville-urw", Georgia, Times, serif;
+	font-family: "baskerville-urw", Baskerville, Times, serif;
 	font-weight: 500;
-	font-size: 1.1em;
+	font-size: 1em;
 	line-height: 1.7em;
 }
 
 .contact-me {
-	font-family: "baskerville-urw", Georgia, Times, serif;
-	font-weight: 400;
+	font-family: Baskerville, "baskerville-urw", Times, serif;
+	font-weight: normal;
 	font-size: 3.5vw;
 }
 
@@ -172,7 +171,7 @@ p,
 }
 
 .social-links li span {
-	font-family: "ingra";
+	font-family: "ingra", Helvetica, sans-serif;
 	font-size: 0.90em;
 	font-weight: 400;
 	text-transform: uppercase;
@@ -180,7 +179,7 @@ p,
 }
 
 #back-to-projects {
-	font-family: "ingra", sans-serif;
+	font-family: "ingra", Helvetica, sans-serif;
 	font-size: 0.90em;
 	font-weight: 400;
 	text-decoration: underline;
@@ -190,7 +189,7 @@ p,
 }
 
 #back-to-top {
-	font-family: "ingra", sans-serif;
+	font-family: "ingra", Helvetica, sans-serif;
 	font-size: 0.90em;
 	font-weight: 400;
 	text-decoration: underline;
