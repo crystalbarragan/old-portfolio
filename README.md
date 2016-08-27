@@ -4,6 +4,7 @@ This is a work-in-progress, personal portfolio website made with [Bootstrap](htt
 ### Features
 
 - Clean, responsive layout with minimalistic design
+- Cross-browser compatible (Chrome, Opera, Safari, Firefox, IE)
 - Filterable portfolio section using [Shuffle.js](https://github.com/Vestride/Shuffle)
 - Embedded PDF documents using [PDFObject.js](https://github.com/pipwerks/PDFObject)
 
