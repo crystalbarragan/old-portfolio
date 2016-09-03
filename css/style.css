@@ -244,13 +244,11 @@ nav {
 #resume {
 	background: #FFFFFF;
 	display: block;
-	height: 100%;
-	overflow: visible;
 	padding: 50px 0;
 }
 
 .highlights {
-	margin-bottom: 50px;
+	margin-bottom: 25px;
 }
 
 .about-image,
@@ -319,7 +317,6 @@ nav {
 
 #contact {
 	background: #e4e4e4;
-	font-family: "baskerville-utw";
 	padding: 50px 0;
 }
 
@@ -331,7 +328,6 @@ nav {
 
 #footer {
 	background: #d5c9c8;
-    text-align: center;
     padding: 50px 0;
 }
 
