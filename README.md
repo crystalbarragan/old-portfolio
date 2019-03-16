@@ -1,5 +1,5 @@
-# [crystalbarragan.github.io](http://crystalbarragan.github.io)
-This is a work-in-progress, personal portfolio website made with [Bootstrap](http://getbootstrap.com).
+# old-portfolio
+A personal portfolio website made with [Bootstrap](http://getbootstrap.com).
 
 ### Features
 
@@ -11,13 +11,8 @@ This is a work-in-progress, personal portfolio website made with [Bootstrap](htt
 ### Installation
 Select **Download** to view and edit this project using a code editor (such as [Brackets](http://brackets.io) or [Sublime Text](http://www.sublimetext.com)). 
 
-### Contribute
-- Source Code: (https://github.com/crystalbarragan/crystalbarragan.github.io/)
-- Issue Tracker: (https://github.com/crystalbarragan/crystalbarragan.github.io/issues)
-
-
 ### Support
-Found a bug? Let me know. You can e-mail me at [crystalbarragan@icloud.com](mailto:crystalbarragan@icloud.com) or submit a new issue [here](https://github.com/crystalbarragan/crystalbarragan.github.io/issues). 
+Find a bug? Let me know. You can e-mail me at [crystalbarragan@icloud.com](mailto:crystalbarragan@icloud.com) or submit a new issue [here](https://github.com/crystalbarragan/crystalbarragan.github.io/issues). 
 
 ### License
 This project is licensed under the [MIT license](https://opensource.org/licenses/MIT).
